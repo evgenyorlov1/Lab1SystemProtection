@@ -1,10 +1,20 @@
 package lab1java;
 
-public class User {
+public class Admin {
+
+    public Admin(String password) {
+        
+    }
     
-    public User(String nama, String password) {}
+    public void changePassword(String newPassword) {
+        
+    }
     
-    public void changePassword() {}
+    public void addUser() {}
+    
+    public void blockUser() {}
+    
+    public void setRestriction() {}
     
     public void exit() {
         System.exit(0);
