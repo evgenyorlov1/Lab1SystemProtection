@@ -4,6 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/pc/NetBeansProjects/Lab1Java/src/lab1java/Lab1Java.java</file>
+            <file>file:/home/pc/NetBeansProjects/Lab1Java/src/lab1java/Login.java</file>
+            <file>file:/home/pc/NetBeansProjects/Lab1Java/src/lab1java/Restriction.java</file>
+            <file>file:/home/pc/NetBeansProjects/Lab1Java/src/lab1java/UserGui.java</file>
+            <file>file:/home/pc/NetBeansProjects/Lab1Java/src/lab1java/TableModel.java</file>
+            <file>file:/home/pc/NetBeansProjects/Lab1Java/src/lab1java/FileOutput.java</file>
+            <file>file:/home/pc/NetBeansProjects/Lab1Java/src/lab1java/AdminGui.java</file>
         </group>
     </open-files>
 </project-private>

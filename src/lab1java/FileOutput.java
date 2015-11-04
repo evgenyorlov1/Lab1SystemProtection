@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 
 
-public class Fileoutput {
+public class FileOutput {
     
     private static final String COMMA_DELIMITER = ",";
     private static final String NEW_LINE_SEPARATOR = "\n";
@@ -18,15 +18,16 @@ public class Fileoutput {
         ArrayList<String[]> array = new ArrayList<String[]>();
         try {
             br = new BufferedReader(new FileReader(System.getProperty("user.dir") + File.separator + "init.csv"));            
-            while((line = br.readLine()) != null) {                       
-                array.add(line.split(COMMA_DELIMITER));
+            while((line = br.readLine()) != null) {                  
+                array.add(line.split(COMMA_DELIMITER)); //name,password,block,restriction
             }
+            br.close();
         } catch(Exception e) {System.err.println("getCSV error: " + e);}
         return array;
     }
     
     public static void writeCSV(ArrayList<String[]> array) {
-        
+        //rewrites init.csv completaly
         FileWriter fileWriter = null;
         try {
             fileWriter = new FileWriter(System.getProperty("user.dir") + File.separator + "init.csv");
